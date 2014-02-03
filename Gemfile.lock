@@ -1,7 +1,7 @@
 GIT
-  remote: https://github.com/gorsuch/nugget.git
-  revision: ab3d749506a7a07532973ad4daa76ff0fb5233df
-  branch: explicit-gemspec
+  remote: https://github.com/joewilliams/nugget.git
+  revision: 9e2a89fded183ff5e107a81d1f44be653574de0e
+  ref: 9e2a89fded183ff5e107a81d1f44be653574de0e
   specs:
     nugget (0.0.4)
       mixlib-cli
