@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/gorsuch/nugget.git
+  revision: ab3d749506a7a07532973ad4daa76ff0fb5233df
+  branch: explicit-gemspec
+  specs:
+    nugget (0.0.4)
+      mixlib-cli
+      mixlib-config
+      mixlib-log
+      thin
+      turd
+      yajl-ruby
+
 GEM
   remote: https://www.rubygems.org/
   specs:
@@ -11,13 +24,6 @@ GEM
     mixlib-cli (1.4.0)
     mixlib-config (2.1.0)
     mixlib-log (1.6.0)
-    nugget (0.0.4)
-      mixlib-cli
-      mixlib-config
-      mixlib-log
-      thin
-      turd
-      yajl-ruby
     rack (1.5.2)
     thin (1.6.1)
       daemons (>= 1.0.9)
@@ -33,5 +39,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nugget
+  nugget!
   turd

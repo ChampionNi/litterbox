@@ -1,4 +1,4 @@
 source 'https://www.rubygems.org'
 
 gem 'turd'
-gem 'nugget'
+gem 'nugget', :git => 'https://github.com/gorsuch/nugget.git', :branch => 'explicit-gemspec'
